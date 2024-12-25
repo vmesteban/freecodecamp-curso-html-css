@@ -1,6 +1,8 @@
 .pinguino {
-    --pinguino-barriga: gray;
-    --pinguino-pico: yellow;
+    --pinguino-barriga: white;
+    --pinguino-pico: orange;;
+    --pinguino-piel: gray;
+
     position: relative;
     margin: auto;
     display: block;
@@ -12,7 +14,7 @@
 .pinguino-superior {
   top: 10%;
   left: 25%;
-  background: black;
+  background: var(--pinguino-piel);
   width: 50%;
   height: 45%;
   border-radius: 70% 70% 60% 60%;
@@ -21,7 +23,7 @@
 .pinguino-inferior {
   top: 40%;
   left: 23.5%;
-  background: black;
+  background: var(--pinguino-piel);
   width: 53%;
   height: 45%;
   border-radius: 70% 70% 100% 100%;
@@ -30,7 +32,7 @@
 .mano-derecha {
   top: 0%;
   left: -5%;
-  background: black;
+  background: var(--pinguino-piel);
   width: 30%;
   height: 60%;
   border-radius: 30% 30% 120% 30%;
@@ -41,7 +43,7 @@
 .mano-izquierda {
   top: 0%;
   left: 75%;
-  background: black;
+  background: var(--pinguino-piel);
   width: 30%;
   height: 60%;
   border-radius: 30% 30% 30% 120%;
@@ -101,7 +103,7 @@
 .ojo-derecho {
   top: 45%;
   left: 60%;
-  background: black;
+  background: var(--pinguino-piel);
   width: 15%;
   height: 17%;
   border-radius: 50%;
@@ -110,7 +112,7 @@
 .ojo-izquierdo {
   top: 45%;
   left: 25%;
-  background: black;
+  background: var(--pinguino-piel);
   width: 15%;
   height: 17%;
   border-radius: 50%;

@@ -1,0 +1,58 @@
+/* Hexadecimal Code */
+
+/*  
+      FF  FF    FF -> Blanco  
+    # 00  00    00 -> Negro
+    Rojo Verde Azul
+*/
+
+/* div {
+    background-color: blue;
+}
+
+h2 {
+    color: #eba234;
+}
+
+img {
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #eb4034;
+}
+
+a {
+    color: #a730e3;
+} */
+
+/* CODIGOS ABREVIADOS
+   #000
+   #fff
+   #0f0
+   #f0f
+*/ 
+
+div {
+    /*background-color: #00ffff; #0ff*/
+    background-color: rgb(0, 255, 255);
+}
+
+h2 {
+    /*color: #ff0000; #f00*/
+    color: rgb(255, 0, 0 );
+}
+
+img {
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    /* border-color: #0f0; */
+    border-color: rgb(0, 255, 0);
+}
+
+a {
+    /*color: #ff00ff; f0f*/
+    color: rgb(255, 0, 255);
+}
+
+
